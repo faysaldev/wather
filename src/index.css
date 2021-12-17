@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+img.py-2 {
+  width: 400px;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 668px){
+  img.py-2 {
+    width: 300px;
+  }
+
+  form input{
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 468px){
+  img.py-2 {
+    width: 200px;
+  }
+
+}
+
+form {
+  padding-top: 30px;
+}
+form input[name="city"],
+form input[name="country"]{
+  background-color: transparent;
+  color: white;
+  border: 0;
+  border-bottom: 2px solid whitesmoke;
+  border-radius: 0;
+}
+
+form input:focus{
+  background-color: lightgray !important;
+  box-shadow: none !important;
+  color: black !important;
+}
+
+.container.py-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  color: white;
+  font-weight: bolder !important;
+}

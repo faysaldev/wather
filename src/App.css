@@ -1,0 +1,7 @@
+.App {
+  background: linear-gradient(rgba(150, 147, 147, 0.699),rgba(121, 117, 117, 0.397)), url("https://i.pinimg.com/originals/86/3f/e1/863fe14cb5aaaf1fb6c24d3620da6718.jpg");
+  height: 100vh;
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
